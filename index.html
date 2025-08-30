@@ -1,69 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acara 1 - HTML CSS</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kecamatan Mertoyudan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    /* Judul */
+    h1 {
+      text-align: center;
+      color: #b7410e;
+      margin-bottom: 5px;
+    }
+
+    h2,
+    h3 {
+      text-align: center;
+      margin-top: 0;
+      color: #333366;
+    }
+
+    /* Kotak Deskripsi */
+    .deskripsi {
+      background-color: #f4ede4;
+      border-left: 6px solid #a0522d;
+      padding: 15px;
+      margin: 20px auto;
+      text-align: justify;
+      border-radius: 6px;
+      width: 90%;
+    }
+
+    /* Tabel Penduduk */
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      text-align: center;
+      background-color: #fff;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    th {
+      background-color: #a0522d;
+      color: #fff;
+      padding: 10px;
+    }
+
+    td {
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    /* Daftar Kelurahan */
+    .kelurahan {
+      width: 80%;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 6px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .kelurahan h3 {
+      text-align: left;
+      color: #333366;
+    }
+
+    .kelurahan ol {
+      margin-left: 20px;
+    }
+  </style>
 </head>
 
 <body>
-    <main>
-        <!--judul-->
-        <h1 style="color: rgb(60, 173, 88);">Kabupaten Magelang</h1>
-        <!--sub judul-->
-        <h3 style="color: rgb(50, 102, 162);">Kecamatan Mertoyudan</h3>
-        <!--deskripsi-->
-        <p>
-            Mertoyudan adalah sebuah kecamatan di Kabupaten Magelang, Jawa Tengah, Indonesia. Berdasarkan RT/RW
-            Kabupaten Magelang Tahun 2010-2030 dari Bappeda Kabupaten Magelang, Kecamatan Mertoyudan merupakan pusat
-            permukiman di Kabupaten Magelang dengan Skala Pelayanan Kabupaten. Selain itu, beberapa desa dan kelurahan
-            di Kecamatan Mertoyudan bagian Selatan menjadi pembentuk wilayah Kota Mungkid yang berfungsi sebagai ibu
-            kota Kabupaten Magelang.
-            Mertoyudan memiliki kontribusi sendiri bagi jalur transportasi di pulau Jawa. Jalan Mayjend Bambang Soegeng
-            Mertoyudan merupakan jalan provinsi dan jalan utama yang menghubungkan Semarang - Magelang - Yogyakarta
-        </p>
-<hr>
-        <!--tabel penduduk-->
-        <table>
-            <tr>
-                <th>No</th>
-                <th>Jenis Kelamin</th>
-                <th>Jumlah</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Laki Laki</td>
-                <td>12.647 jiwa</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Perempuan</td>
-                <td>11.486 jiwa</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Total</td>
-                <td>23.859 jiwa</td>
-            </tr>
-        </table>
-<hr>
-        <h3>Kelurahan</h3>
-        <ol>
-            <li>Banjarnegoro</li>
-            <li>Banyurojo</li>
-            <li> Bondowoso</li>
-            <li> Bulurejo</li>
-            <li> Danurejo</li>
-            <li> Deyangan</li>
-            <li> Donorojo</li>
-            <li> Jogonegoro</li>
-            <li> Kalinegoro</li>
-            <li> Pasuruhan</li>
-        </ol>
-    </main>
-</body>
+  <main>
+    <!-- Judul -->
+    <h1>KABUPATEN MAGELANG</h1>
+    <h2>Provinsi Jawa Tengah</h2>
+    <h3>Kecamatan Mertoyudan</h3>
 
-</html>
+    <!-- Deskripsi -->
+    <div class="deskripsi">
+      <p>
+        Mertoyudan adalah sebuah kecamatan di Kabupaten Magelang, Jawa Tengah, Indonesia. Berdasarkan RT/RW Kabupaten
+        Magelang Tahun 2010-2030 dari Bappeda Kabupaten Magelang, Kecamatan Mertoyudan merupakan pusat permukiman di
+        Kabupaten Magelang dengan Skala Pelayanan Kabupaten. Selain itu, beberapa desa dan kelurahan di Kecamatan
+        Mertoyudan bagian Selatan menjadi pembentuk wilayah Kota Mungkid yang berfungsi sebagai ibu kota Kabupaten
+        Magelang.
+      </p>
+      <p>
+        Mertoyudan memiliki kontribusi penting bagi jalur transportasi di Pulau Jawa. Jalan Mayjend Bambang Soegeng
+        Mertoyudan merupakan jalan provinsi dan jalan utama yang menghubungkan Semarang - Magelang - Yogyakarta.
+      </p>
+    </div>
+
+    <!-- Tabel Penduduk -->
+    <table>
+      <tr>
+        <th>No</th>
+        <th>Jenis Kelamin</th>
+        <th>Jumlah</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Laki-Laki</td>
+        <td>12.647 jiwa</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Perempuan</td>
+        <td>11.486 jiwa</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td><b>Total</b></td>
+        <td><b>23.859 jiwa</b></td>
+      </tr>
+    </table>
+
+    <!-- Daftar Kelurahan -->
+    <div class="kelurahan">
+      <h3>Kelurahan</h3>
+      <ol>
+        <li>Banjarnegoro</li>
+        <li>Banyurojo</li>
+        <li>Bondowoso</li>
+        <li>Bulurejo</li>
+        <li>Danurejo</li>
+        <li>Deyangan</li>
+        <li>Donorojo</li>
+        <li>Jogonegoro</li>
+        <li>Kalinegoro</li>
+        <li>Pasuruhan</li>
+      </ol>
+    </div>
+  </main>
+</body>
 
 </html>
