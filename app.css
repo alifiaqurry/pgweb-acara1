@@ -1,0 +1,83 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    /* Judul */
+    h1 {
+      text-align: center;
+      color: #b7410e;
+      margin-bottom: 5px;
+    }
+
+    h2,
+    h3 {
+      text-align: center;
+      margin-top: 0;
+      color: #333366;
+    }
+
+    /* Deskripsi */
+    .deskripsi {
+    background-color: #f4ede4;
+    border-left: 6px solid #a0522d;
+    padding: 15px;
+    margin: 20px auto;
+    text-align: justify;
+    border-radius: 6px;
+    width: 90%;
+    }
+
+    .deskripsi .p1{
+      color: #171458;
+
+    }
+    .deskripsi .p2{
+      color: rgb(36, 30, 158);
+    }
+
+    /* Tabel Penduduk */
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      text-align: center;
+      background-color: #fff;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    th {
+      background-color: #a0522d;
+      color: #fff;
+      padding: 10px;
+    }
+
+    td {
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    /* Daftar Kelurahan */
+    .kelurahan {
+      width: 80%;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 6px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .kelurahan h3 {
+      text-align: left;
+      color: #333366;
+    }
+
+    .kelurahan ol {
+      margin-left: 20px;
+    }
